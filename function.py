@@ -93,3 +93,4 @@ def driems(**kwargs):
         print(a,"---->",b)
     
 driems(clg="Driems University", Loc="tangi", district ='cuttack',pin=7676869 )
+print("ram")
