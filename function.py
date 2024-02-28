@@ -107,5 +107,31 @@
 # print(f"The number {num} is {result}.")
 
 
+# def satya():
+#     return 9
+# print(type(satya))
 
+# l=[1,2,3,satya]
+# print(l)
+# print(l[-1])
+
+
+# a=lambda x,y : x+y
+# print(a(4,5))
+
+# a= lambda x: x**2
+# print(a(5))
+
+
+# for i in range (1,100):
+#     print(i)
+
+# a= lambda x,y : x**y
+# print(a(3,4))
+
+# a= lambda a: "even" if a%2==0 else "odd"
+# print(a(55))
+
+# a= lambda a,b : a if a>b else b
+# print(a(5,2))
 
