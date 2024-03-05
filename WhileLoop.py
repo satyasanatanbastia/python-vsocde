@@ -48,11 +48,40 @@
 #     a+=1
 # print(count,sep=' ', end="\n")
 
-a=20
-count=0
-while a<=50:
-    if a%4==0:
-        print(a)
-        count+=1
-    a+=1
-print(count,end=" ")
+#calculate sum of all no from from 20 to 54 which is divisible by 4
+
+# a=20
+# total=0
+# while a<=50:
+#     if a%4==0:
+#         print(total,end=" ")
+#         total=total+a
+#     a+=1
+# print(total)
+
+#table printing
+# i=int(input("Enter Your No-"))
+# j=1
+# while i<=10:
+#     x=i*j
+#     print(f"i,"*", j ,'='+x" )
+# j+=1
+
+
+# #factorial
+# # Taking input from the user
+# num = int(input("Enter a number to find its factorial: "))
+
+# # Initializing the factorial variable
+# factorial = 1
+# i = 1
+
+# # Calculating factorial using a while loop
+# while i <= num:
+#     factorial *= i
+#     i += 1
+
+# # Printing the factorial
+# print(f"The factorial of {num} is: {factorial}")
+
+
