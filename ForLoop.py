@@ -1,78 +1,55 @@
-# i=0
-# while i<=10:
-#     print("Jay Sita Ram")
-#     i+=1
-#     print("Jay Hanuman")
+# for i in range(1,11):
+#     print(i,end=' ')
 
-# i=0
-# while i<=10:
-#     print(i, end=" ")
-#     i=i+1
+# for i in range(21,1,-2):
+#      print(i,end=' ')
 
-# i=1
-# while i<=100:
-#     if i%2==0:
-#         print(i, end=" ")
-#     i+=1
-
-#Ask a number from user. Print all the numbers from 1 to that number.
-# num=int(input('enter your number-'))
-# i=1
-# while i<=num:
+#Ask a number from user. Print all the numbers from 1 to that number
+# a=int(input("Enter Your No-"))
+# for i in range (1,a+1):
 #     print(i,end=" ")
-#     i+=1
 
-# num=int(input('enter your number-'))
-# i=num
-# while num>=1:
-#     print(num,end=" ")
-#     num=num-1
+#Ask a number (N) from user. Print all the numbers from N to 1.
+# n=int(input("Enter Your No-"))
+# for i in range (n,0,-1):
+#      print(i,end=" ")
 
-# num1=int(input('enter your number1-'))
-# num2=int(input('enter your number2-'))
-# while num1>=num2:
-#     print()
-
-# num=int(input("Enterv Your Number-"))
-# i=1
-# while i<=num:
+# Ask start number and end number from user. Print all the numbers from start to end using while loop
+# start=int(input("Enter Your No-"))
+# end=int(input("Enter Your No-"))
+# for i in range(start,end+1):
 #     print(i,end=" ")
-#     i+=1
 
-# num=int(input("Enterv Your Number-"))
-# while num>=1:
-#     print(num)
-#     num=num-1
+#Calculate the sum of all the numbers from 1 to 10.
+# a=0
+# for i in range(1,11):
+#     a+=i
+# print(a)
 
-# start=int(input("Enterv Your Number-"))
-# end=int(input("Enterv Your Number-"))
-# while end>=start:
-#     print(end)
-#     end=end-1
+#Calculate product of all the numbers from 1 to 10.
+# a=1
+# for i in range(1,11):
+#     a*=i
+# print(a)
 
 
-# i=1
-# total=1
-# while i<=10:
-#     total=total*i
-#     i=i+1
-# print(total)
+#Calculate how many numbers are divisible by 7 from 1 to 100.
+# a=0
+# for i in range (1,101):
+#     if i%7==0:
+#         a+=1
+# print(a)
 
-# i=1
-# num=int(input("enter your number-"))
-# while i<=num:
-#     print(i)
-#     i=i+1
+#Calculate how many numbers are divisible by both 6 and 7 between 1 to 200.
+# a=0
+# for i in range(1,200):
+#     if i%6==0 and i%7==0:
+#         a+=1
+# print(a)
 
-# i=1
-# num=int(input("enter your number-"))
-# while num>=1:
-#     print(num,end=" ")
-#     num=num-1
-
-# s=int(input("enter your number-"))
-# e=int(input("enter your number-"))
-# while s<=e:
-#     print(s)
-#     s=s+1
-
+#Write a program to calculate the sum of all the numbers divisible by 4 from 20 to 50.
+# a=0
+# for i in range(20,51):
+#     if i%4==0:
+#         a+=i
+# print(a)
