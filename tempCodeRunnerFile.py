@@ -1,2 +1,4 @@
-for name, score in student_scores.items():
-#     print(f"{name} scored {score}")
+for i in range(5,0,-1):
+    for j in range(i):
+        print(i,end=" ")
+    print()
