@@ -80,3 +80,24 @@
 #     self.menu()
 
 
+# class demo:
+#     def __init__(self):
+#         print("jay sri ram")
+# object=demo()
+
+
+
+# class satya:
+#     def __init__(self, name, age):
+#         self.name=name
+#         self.age=age
+
+#     def __str__(self):
+#         return f"{self.name}--{self.age}"
+
+# obj1=satya("Satya",22)
+# obj2=satya("sonu",33)
+# print(obj1)
+# print(obj2)
+
+
