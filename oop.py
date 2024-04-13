@@ -101,3 +101,28 @@
 # print(obj2)
 
 
+# class shell:
+#     def __init__(self,name, age, gender):
+#         self.name=name
+#         self.age=age
+#         self.gennder=gender
+#     def check(self):
+#         if self.gennder == "male":
+#             return "hello ji"
+#         else:
+#             return "hii ji"
+        
+# a=shell("satya", 21, "male")
+# # print(a.check())
+# a.country="india"
+# print(a.country)
+
+# class radaha:
+#     name="sonu"
+#     age=34
+#     pin=4567
+# s1=radaha()
+# print(s1.pin)
+
+
+
