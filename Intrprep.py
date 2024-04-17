@@ -26,12 +26,34 @@
 
 
 # Check whether a given character is upper case, lower case, number or special character
-char = input("enter yor charecter--")
-if char >= "a" and char <= "z":
-    print("It is lowercase charecter")
-elif char >= "A" and char <= "Z":
-    print("It is uperrcase charecter")
-elif int(char) >= 0 and int(char) <= 9:
-    print("It is Number")
-else:
-    print("It is special charecter")
+# char = input("enter yor charecter--")
+# if char >= "a" and char <= "z":
+#     print("It is lowercase charecter")
+# elif char >= "A" and char <= "Z":
+#     print("It is uperrcase charecter")
+# elif int(char) >= 0 and int(char) <= 9:
+#     print("It is Number")
+# else:
+#     print("It is special charecter")
+
+
+#swapping two numbers
+
+# a=5
+# b=4
+# a=a+b
+# b=a-b
+# a=a-b
+# print(f"a-{a}")
+# print(f"b-{b}")
+
+#using 3rd variable
+# a=2
+# b=3
+# c=a
+# a=b
+# b=c
+# print(a)
+# print(b)
+
+#A number is even or odd
