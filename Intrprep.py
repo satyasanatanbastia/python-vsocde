@@ -57,3 +57,16 @@
 # print(b)
 
 #A number is even or odd
+# num=int(input("enter your no-"))
+# if num%2==0:
+#     print("even")
+# else:
+#     print("odd")
+
+
+#Finding area of circle
+# from math import pi 
+# radious=float(input("enter your radious-"))
+# radious = pi * radious**2
+# print(radious)
+
