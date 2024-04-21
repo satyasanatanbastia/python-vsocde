@@ -70,3 +70,17 @@
 # radious = pi * radious**2
 # print(radious)
 
+#Find LCM of two numbers in 
+
+# num1=int(input("enter your 1st no--"))
+# num2=int(input("enter your 2nd no--"))
+# if num1>num2:
+#     Greater= num1
+# else:
+#     Greater= num2
+
+# while(True):
+#     if Greater%num1==0 and Greater%num2==0:
+#         break
+#     Greater+=1
+# print(f"LCM of 2 no is-{Greater}")
